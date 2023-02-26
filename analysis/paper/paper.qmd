@@ -1,30 +1,14 @@
 ---
-title: "Title Goes Here"
+title: "Human-AI Decision-Making: A Generative Tool for Researchers"
 author:
-  - Jane Doe:
+  - Tyler Reinmund:
       correspondence: "yes"
-      email: janedoe@fosg.org
-      orcid: 0000-0003-1689-0557
+      email: tyler.reinmund@cs.ox.ac.uk
+      orcid: 0000-0002-9249-7688
       institute:
-        - fosg
-        - fop
-  - John Q. Doe:
-      institute: fosg
-      orcid: 0000-0003-1689-0558
-  - Peder Ås:
-      institute: fosg
-      orcid: 0000-0003-1689-0559
-  - Juan Pérez:
-      orcid: 0000-0003-1689-0551
-      institute:
-        - name: Acme Corporation
-  - Max Mustermann:
-      orcid: 0000-0003-1689-0552
-institute:
-  - fosg:
-      name: Formatting Open Science Group
-      address: 23 Science Street, Eureka, Mississippi, USA
-  - fop: Federation of Planets
+        - name: University of Oxford
+  - Catarina Barino:
+      email: catarina.barino@gmail.com
 title-block-published: "Last updated"  
 date: now
 date-format: long
@@ -43,7 +27,7 @@ filters:
   - ../templates/author-info-blocks.lua
   - ../templates/pagebreak.lua
 bibliography: references.bib
-csl: "../templates/acm-sigchi-proceedings" # Insert path for the bib-style
+csl: "../templates/acm-sigchi-proceedings.csl" # Insert path for the bib-style
 abstract: |
   Text of abstract
 keywords: |
@@ -68,7 +52,25 @@ Here is a citation [@Marwick2017]
 
 # Background
 
+This project aims to leverage large language models to support researchers in the area of human-AI decision-making with research activities. Specifically, it will enable researchers to:
+
+* Brainstorm research questions.
+* Prepare research plans for studies.
+* Draft paper outlines.
+
+To accomplish this, we will use a pre-trained model and fine tune it for the domain of human-AI decision-making.
+
 # Methods
+
+## Data Collection
+
+We will generate a corpus of human-AI decision-making research publications:
+
+1. Identify formative articles from existing research efforts.
+2. Collect additional formative articles from past literature reviews.
+3. Crawl citations from Google Scholar.
+
+
 
 # Results
 
